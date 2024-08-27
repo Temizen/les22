@@ -1,0 +1,16 @@
+/* ik heb !important moeten gebruiken omdat ik anders niet de de kleuren overschreven kreeg, ik ben mij ervan bewust dat keywords ook nog niet aan bod zijn gekomen in de cursus.*/
+
+  .bg-dark, .bg-secondary {
+    background-color: #228B22 !important;
+  }
+  
+  .btn-info {
+    background-color:#4CAF50;
+    border-color: #4CAF50;
+    color: #ffffff;
+  }
+  .btn-info:hover {
+    background-color:#005f03;
+    border-color: #005f03;
+    color: #ffffff;
+  }

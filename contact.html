@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="huiswerk les 22 nha">
+        <meta name="keywords" content="les 22, huiswerk, nha">
+        <meta name="author" content="Temizen ©2024">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Les 22, Huiswerk (Home)</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+                <div class="container-fluid justify-content-center align-self-center">
+                    <a class="navbar-brand fs-1" href="index.html"><i class="bi bi-recycle"></i> Temizen</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="overmij.html">Over mij</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-sm my-5 bg-secondary text-light">
+                <div class="row justify-content-center">
+                    <div class="col-sm-5 col-md-7 my-5">
+                        <form method="post" action="https://formspree.io/f/xzzporbw">
+                            <label for="email" class="form-label">Email adres:</label>
+                            <input name="E-mail" type="email" class="form-control mb-3" id="email" placeholder="bijv: ik@voorbeeld.nl">
+
+                            <label for="naam" class="form-label">Uw naam:</label>
+                            <input name="Naam" type="text" class="form-control mb-3" id="naam" placeholder="bijv: Jan Jansen">
+
+                            <label for="onderwerp" class="form-label">Onderwerp:</label>
+                            <input name="Onderwerp" type="text" id="onderwerp" class="form-control mb-3">
+
+                            <label for="bericht" class="form-label">Uw bericht:</label>
+                            <textarea name="Bericht" id="bericht" class="form-control mb-3" style="height: 140px;"></textarea>
+
+                            <div class="text-center mb-4">
+                                <button class="btn btn-success" type="submit">Verstuur</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark bg-gradient text-light container-sm">
+            <div class="container-md my-5 pt-5 mx-2">
+               <div class="row justify-content-center">
+                    <div class="col-sm-4 text-center">
+                        <p>© Veridian 2024 <br> All rights reserved.</p>
+                    </div>
+               </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
